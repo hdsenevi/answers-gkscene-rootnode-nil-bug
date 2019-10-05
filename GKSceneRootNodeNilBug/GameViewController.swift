@@ -38,7 +38,11 @@ class GameViewController: UIViewController {
                     view.showsFPS = true
                     view.showsNodeCount = true
                 }
+            } else {
+                print("Error. No GameScene was found on GKScene.rootNode")
             }
+        } else {
+            print("Error loading GKScene file GameScene")
         }
     }
 
