@@ -16,6 +16,7 @@
 		609A98AE2348337D00762EB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 609A98AD2348337D00762EB9 /* Assets.xcassets */; };
 		609A98B12348337D00762EB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 609A98AF2348337D00762EB9 /* LaunchScreen.storyboard */; };
 		609A98B9234833EA00762EB9 /* CustomComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609A98B8234833EA00762EB9 /* CustomComponent.swift */; };
+		609A98BB2348377200762EB9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 609A98BA2348377200762EB9 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		609A98B02348337D00762EB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		609A98B22348337E00762EB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		609A98B8234833EA00762EB9 /* CustomComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomComponent.swift; sourceTree = "<group>"; };
+		609A98BA2348377200762EB9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		609A989F2348337C00762EB9 /* GKSceneRootNodeNilBug */ = {
 			isa = PBXGroup;
 			children = (
+				609A98BA2348377200762EB9 /* README.md */,
 				609A98A02348337D00762EB9 /* AppDelegate.swift */,
 				609A98A22348337D00762EB9 /* GameScene.sks */,
 				609A98A42348337D00762EB9 /* Actions.sks */,
@@ -134,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				609A98BB2348377200762EB9 /* README.md in Resources */,
 				609A98AC2348337D00762EB9 /* Main.storyboard in Resources */,
 				609A98A32348337D00762EB9 /* GameScene.sks in Resources */,
 				609A98AE2348337D00762EB9 /* Assets.xcassets in Resources */,
